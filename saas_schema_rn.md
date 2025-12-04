@@ -17,7 +17,7 @@ Guarda os dados dos usuários cadastrados.
 - `id` — uuid (PK)
 - `name` — text
 - `email` — text (unique)
-- `password_hash` — text
+- `password` — text
 - `is_active` — boolean
 - `last_login` — timestamp
 - `created_at` — timestamp

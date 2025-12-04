@@ -5,3 +5,6 @@ python-multipart
 yt-dlp
 ffmpeg-python
 python-dotenv
+sqlalchemy
+bcrypt
+email-validator
