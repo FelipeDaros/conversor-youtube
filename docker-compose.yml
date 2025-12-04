@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app/files:/app/app/files
+    environment:
+      - PORT=8000
+      - FILES_DIR=/app/app/files
+      - FILE_TTL=900
